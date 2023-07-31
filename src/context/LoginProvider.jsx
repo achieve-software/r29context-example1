@@ -3,7 +3,6 @@ import { useState } from "react";
 import { createContext } from "react";
 
 //! 1) creating Context
-
 export const LoginContext = createContext();
 
 //! 2- ) Providerconst
