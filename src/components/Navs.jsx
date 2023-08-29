@@ -8,6 +8,7 @@ import { useLoginContext } from "../context/LoginProvider";function Navs() {
   const {user,setUser} = useLoginContext()
     return (
     <Navbar expand="md">
+      
       <Container>
         <Navbar.Brand>
           <Link className="nav-link" to="/">
