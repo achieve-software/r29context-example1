@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 
 const data = [
   {
+    
     id: 1,
     name: "HTML",
     text: "Welcome to Our HTML Course",
