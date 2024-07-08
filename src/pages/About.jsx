@@ -11,7 +11,9 @@ const About = () => {
           <i className="fas fa-globe-americas fa-2x"></i>
           <h4>Online Courses</h4>
           <p>
-            Lorem, 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium veniam tempore odio, distinctio neque enim eveniet
+            consequatur magnam vero ut.
           </p>
         </Col>
 
