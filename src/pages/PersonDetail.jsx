@@ -15,7 +15,7 @@ const PersonDetail = () => {
     fetch(`https://reqres.in/api/users/${id}`)
       .then((res) => {
         if (!res.ok) {
-          setError(false);
+          setError(true);
           throw new Error("Something went wrong");
         }
         return res.json();
