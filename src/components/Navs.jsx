@@ -23,7 +23,8 @@ import { useLoginContext } from "../context/LoginProvider";function Navs() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Link className="nav-link" to="/">
-              H 
+              Home
+            </Link>
             <Link className="nav-link" to="/about">
               A 
             </Link>
