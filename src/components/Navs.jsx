@@ -26,7 +26,7 @@ import { useLoginContext } from "../context/LoginProvider";function Navs() {
               Home
             </Link>
             <Link className="nav-link" to="/about">
-              A 
+              About
             </Link>
             <Link className="nav-link" to="/people">
               People
