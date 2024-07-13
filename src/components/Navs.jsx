@@ -32,7 +32,7 @@ import { useLoginContext } from "../context/LoginProvider";function Navs() {
               People
             </Link>
             {user?.email ? ( <Link className="nav-link" to="/login"
-            onClick={()=> setUser({email:"" , password:"1 1"})}>
+            onClick={()=> setUser({email:"" , password:""})}>
               Logout
             </Link>) : ( <Link className="nav-link" to="/login">
               Login
